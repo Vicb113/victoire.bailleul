@@ -2,7 +2,7 @@
 
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  background-color: rgb(114, 201, 201);
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -14,7 +14,7 @@
   outline: 0;
 }
 #mainNav .navbar-brand {
-  color: #161616;
+  color: #eeeeee;
   font-weight: 700;
   padding: 0.9rem 0;
 }
@@ -90,22 +90,22 @@
       color-stop(75%, rgba(22, 22, 22, 0.7)),
       to(#161616)
     ),
-    url(../img/bg-masthead.jpg);
+    url(../img/facette.jpg);
   background: linear-gradient(
       to bottom,
       rgba(22, 22, 22, 0.3) 0,
       rgba(22, 22, 22, 0.7) 75%,
       #161616 100%
     ),
-    url(../img/bg-masthead.jpg);
+    url(../img/facette.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 .masthead h1 {
-  font-family: "Varela Round";
-  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(
@@ -131,8 +131,8 @@
     padding: 0;
   }
   .masthead h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
+    font-size: 3rem;
+    line-height: 4rem;
     letter-spacing: 0.8rem;
   }
   .masthead h2 {
@@ -144,14 +144,14 @@
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: "Varela Round";
+  font-family: "Lato", sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
 }
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #ff8b68e1;
 }
 .btn-primary:hover {
   background-color: #4f837f;
@@ -219,7 +219,7 @@
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
-  font-family: "Varela Round";
+  font-family: "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
 }
@@ -247,7 +247,7 @@
   color: #fff;
 }
 body {
-  font-family: Nunito;
+  font-family: "Lato", sans-serif;
   letter-spacing: 0.0625em;
 }
 a {
@@ -269,4 +269,38 @@ a:hover {
 }
 footer {
   padding: 5rem 0;
+}
+
+#imgProfil {
+  width: 40vw;
+}
+
+/* h4 {
+  font-size: 20px;
+  margin-bottom: 2vh;
+} */
+
+h3 {
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255)
+  font-size: 15px;
+  margin-bottom: 2vh;
+  margin: 2vh;
+}
+
+.text-white {
+  font-size: 30px;
+}
+
+.background {
+  font-size: 20px;
+}
+
+.standardCard {
+  height: 396px;
+  width: 555px;
+}
+
+h1 {
+  font-size: 20px;
 }
